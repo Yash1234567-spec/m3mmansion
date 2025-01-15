@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/fancybox/:path*", "destination": "/public/fancybox/:path*" }
+  ],
+  "redirects": [
+    { "source": "/thankyou", "destination": "/thankyou.php", "permanent": false }
+  ]
+}
